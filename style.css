@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 2em 0;
+}
+
+section {
+    margin: 3em 0;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+p, ul {
+    font-size: 1.1em;
+}
+
+.project {
+    background: #fff;
+    padding: 1.5em;
+    margin: 1.5em 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #0056b3;
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+.project p {
+    margin-bottom: 1em;
+}
+
+.project ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.project ul li {
+    margin-bottom: 0.5em;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
